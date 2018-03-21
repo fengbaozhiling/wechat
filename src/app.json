@@ -1,0 +1,12 @@
+{
+	"pages": [
+		"pages/index/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ff6600",
+		"navigationBarTitleText": "欢迎",
+		"navigationBarTextStyle": "#ffffff",
+		"onPullDownRefresh": true
+	}
+}

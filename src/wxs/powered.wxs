@@ -1,0 +1,3 @@
+
+const name = 'zhongliangwenwx@163.com';
+module.exports.by = `Powered by ${name}`;

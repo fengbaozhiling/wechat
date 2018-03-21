@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<import src="../../wxml/motto/motto.wxml"/>
+<wxs src="../../wxs/powered.wxs" module="powered" />
+
+<view class="container">
+  <view bindtap="bindViewTap">
+    <user avatarUrl="{{props.user.userInfo.avatarUrl}}" nickName="{{props.user.userInfo.nickName}}"></user>
+  </view>
+  <view >
+    小程序脚手架
+  </view>
+  <view class="powered">
+    <text>{{powered.by}}</text>
+  </view>
+</view>
