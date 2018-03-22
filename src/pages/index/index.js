@@ -10,6 +10,7 @@ import * as userAction from '../../redux/user';
 class Index extends ImmutableComponent {
   onLoad() {
     this.props.userLoad();
+    console.log(this)
   }
 }
 

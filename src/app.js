@@ -10,7 +10,6 @@ import store from './redux/index';
 import { setStore } from './pages/store';
 
 
-
 setStore(store);
 App({
   onLaunch() {

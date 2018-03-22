@@ -37,7 +37,7 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps)
     component.prototype.$$onLoad = function (...args) {
       let store = getStore();
       if (!store) {
-        console.error('store对象不存在,请前往"app.js"文件中使用"redux"创建store,并传参到"labrador-redux"的setStore()方法中');
+        console.error('store对象不存在');
       };
       if (shouldSubscribe) {
         // 如果指定了 mapDispatchToProps 参数才监听store
